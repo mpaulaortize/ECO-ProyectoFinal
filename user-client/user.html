@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Client</title>
+    <link rel="stylesheet" href="user.css" />
+  </head>
+  <body>
+    <h1>Haz tu pedido personalizado</h1>
+
+    <form id="orderForm">
+      <label for="name">Tu nombre:</label>
+      <input type="text" id="name" required />
+
+      <label for="product">Producto:</label>
+      <select id="product">
+        <option value="Café">Café</option>
+        <option value="Té">Té</option>
+        <option value="Chocolate">Chocolate</option>
+      </select>
+
+      <label for="size">Tamaño:</label>
+      <select id="size">
+        <option value="Pequeño">Pequeño</option>
+        <option value="Mediano">Mediano</option>
+        <option value="Grande">Grande</option>
+      </select>
+
+      <label for="extra">Extras:</label>
+      <input type="text" id="extra" placeholder="Leche, azúcar, etc." />
+
+      <button type="submit">Enviar pedido</button>
+    </form>
+
+    <script src="user.js"></script>
+  </body>
+</html>
