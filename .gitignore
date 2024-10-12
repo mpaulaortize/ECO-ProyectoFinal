@@ -1,0 +1,7 @@
+# Ignorar archivos temporales
+*.log
+*.tmp
+
+# Ignorar carpetas específicas
+node_modules/
+dist/
