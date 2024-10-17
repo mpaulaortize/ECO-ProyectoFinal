@@ -1,6 +1,6 @@
 const { createServer } = require('http');
-const app = require('./server/app'); // Ruta ajustada
-const { initSocket } = require('./server/socket'); // Ruta ajustada
+const app = require('./app'); // Ruta ajustada
+const { initSocket } = require('./socket'); // Ruta ajustada
 
 // Crear el servidor HTTP
 const httpServer = createServer(app);
